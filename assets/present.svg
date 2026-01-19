@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150">
+  <rect width="100%" height="100%" fill="#f8fbff"/>
+  <g transform="translate(20,15)">
+    <!-- box -->
+    <rect x="10" y="10" width="120" height="90" rx="10" fill="#d62828" stroke="#9b0000" stroke-width="4"/>
+    <!-- ribbon horizontal -->
+    <rect x="10" y="48" width="120" height="14" fill="#ffd166"/>
+    <!-- ribbon vertical -->
+    <rect x="66" y="10" width="12" height="90" fill="#ffd166"/>
+    <!-- knot -->
+    <ellipse cx="72" cy="52" rx="18" ry="10" fill="#ffb84d"/>
+    <!-- small highlights -->
+    <rect x="18" y="18" width="10" height="6" fill="#ff8b8b" opacity="0.6"/>
+    <rect x="102" y="18" width="10" height="6" fill="#ff8b8b" opacity="0.6"/>
+  </g>
+</svg>
