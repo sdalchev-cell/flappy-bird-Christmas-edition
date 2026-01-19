@@ -1,0 +1,42 @@
+/* Basic page + canvas styling */
+html,body{
+  height:100%;
+  margin:0;
+  background: linear-gradient(#081226, #052a3a); /* night sky base */
+  font-family: Arial, Helvetica, sans-serif;
+}
+#game-container{
+  width:400px;
+  height:600px;
+  margin:30px auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  border-radius:8px;
+  overflow:hidden;
+  background: url('assets/background.png') center center / cover no-repeat, #6cc0ff;
+}
+canvas{
+  display:block;
+}
+
+/* On-screen UI */
+.score-text{
+  font-size:22px;
+  color:#fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+.game-over{
+  font-size:36px;
+  color:#ffefc8;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.75);
+}
+
+/* Small helper for accessibility on mobile */
+.hint {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 8px;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  font-size: 13px;
+}
